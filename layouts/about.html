@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Bengali Surf Tiger - <%= @item[:title] %></title>
+    <title>No default layout anymore- <%= @item[:title] %></title>
     <link rel="stylesheet" href="/stylesheet.css">
 
     <!-- you don't need to keep this, but it's cool for stats! -->
@@ -15,10 +15,7 @@
     <div id="sidebar">
       <h2>Documentation</h2>
       <ul>
-        <!-- <li><a href="http://nanoc.ws/doc/">About</a></li> -->
-<!-- nk href="<%= @items['/assets/style/screen.*'].path %>" media="screen" rel="stylesheet">href -->
-puts @item.as_json
-        <li><a href="<%= @items['/content/about.*'].path %>"> About</a></li>
+        <li><a href="http://nanoc.ws/doc/">About</a></li>
         <li><a href="http://nanoc.ws/doc/tutorial/">Education</a></li>
       </ul>
       <h2>Community</h2>

@@ -1,4 +1,4 @@
-{:	data{o:Nanoc::Identifier:
+{:	data{	o:Nanoc::Identifier:
 @type:	full:@stringI"/stylesheet.css:ET{:default{:	lastU:Nanoc::Int::TextualContent[I"?/home/tim/Projects/bengalisurftiger/content/stylesheet.css;
 TI"Ó* {
   margin: 0;
@@ -103,11 +103,11 @@ a:hover {
 }
 ;
 T:raw@:pre@o;;;;	I"/index.html;
-T{;{	;U;[0I"	<!DOCTYPE HTML>
+T{;{	;U;[0I"2<!DOCTYPE HTML>
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>A Brand New Nanoc Site - Home</title>
+    <title>Bengali Surf Tiger - Home</title>
     <link rel="stylesheet" href="/stylesheet.css">
 
     <!-- you don't need to keep this, but it's cool for stats! -->
@@ -116,7 +116,7 @@ T{;{	;U;[0I"	<!DOCTYPE HTML>
   <body>
     <div id="main">
       
-<h1>A Brand New Nanoc Site</h1>
+<h1>Hello A Brand New Nanoc Site</h1>
 
 <p>You‚Äôve just created a new Nanoc site. The page you are looking at right now is the home page for your site. To get started, consider replacing this default homepage with your own customized homepage. Some pointers on how to do so:</p>
 
@@ -131,13 +131,14 @@ T{;{	;U;[0I"	<!DOCTYPE HTML>
     <div id="sidebar">
       <h2>Documentation</h2>
       <ul>
-        <li><a href="http://nanoc.ws/doc/">Documentation</a></li>
-        <li><a href="http://nanoc.ws/doc/tutorial/">Tutorial</a></li>
+        <!-- <li><a href="http://nanoc.ws/doc/">About</a></li> -->
+        <li><a link_to_id './about.*'> About 	</a></li>
+        <li><a href="http://nanoc.ws/doc/tutorial/">Education</a></li>
       </ul>
       <h2>Community</h2>
       <ul>
-        <li><a href="http://groups.google.com/group/nanoc/">Discussion group</a></li>
-        <li><a href="https://gitter.im/nanoc/nanoc">Gitter channel</a></li>
+        <li><a href="http://groups.google.com/group/nanoc/">Surfing</a></li>
+        <li><a href="https://gitter.im/nanoc/nanoc">Idea</a></li>
         <li><a href="http://nanoc.ws/contributing/">Contributing</a></li>
       </ul>
     </div>
@@ -145,8 +146,8 @@ T{;{	;U;[0I"	<!DOCTYPE HTML>
 </html>
 ;
 T;U;[I";/home/tim/Projects/bengalisurftiger/content/index.html;
-TI"•
-<h1>A Brand New Nanoc Site</h1>
+TI"´
+<h1>Hello A Brand New Nanoc Site</h1>
 
 <p>You‚Äôve just created a new Nanoc site. The page you are looking at right now is the home page for your site. To get started, consider replacing this default homepage with your own customized homepage. Some pointers on how to do so:</p>
 
@@ -157,4 +158,78 @@ TI"•
 
 <p>If you need any help with customizing your Nanoc web site, be sure to check out the documentation (see sidebar), and be sure to subscribe to the discussion group (also see sidebar). Enjoy!</p>
 ;
-T;@:	post@:versioni
+T;@:	post@o;;;;	I"/schooling.html;
+T{;{	;U;[0I"ç<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Bengali Surf Tiger - Education</title>
+    <link rel="stylesheet" href="/stylesheet.css">
+
+    <!-- you don't need to keep this, but it's cool for stats! -->
+    <meta name="generator" content="Nanoc 4.6.1">
+  </head>
+  <body>
+    <div id="main">
+      
+
+    </div>
+    <div id="sidebar">
+      <h2>Documentation</h2>
+      <ul>
+        <!-- <li><a href="http://nanoc.ws/doc/">About</a></li> -->
+        <li><a link_to_id './about.*'> About 	</a></li>
+        <li><a href="http://nanoc.ws/doc/tutorial/">Education</a></li>
+      </ul>
+      <h2>Community</h2>
+      <ul>
+        <li><a href="http://groups.google.com/group/nanoc/">Surfing</a></li>
+        <li><a href="https://gitter.im/nanoc/nanoc">Idea</a></li>
+        <li><a href="http://nanoc.ws/contributing/">Contributing</a></li>
+      </ul>
+    </div>
+  </body>
+</html>
+;
+T;U;[I"?/home/tim/Projects/bengalisurftiger/content/schooling.html;
+TI"
+;
+T;@!;@o;;;;	I"/about.html;
+T{;{	;U;[0I"ê<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Bengali Surf Tiger - About Sefat</title>
+    <link rel="stylesheet" href="/stylesheet.css">
+
+    <!-- you don't need to keep this, but it's cool for stats! -->
+    <meta name="generator" content="Nanoc 4.6.1">
+  </head>
+  <body>
+    <div id="main">
+      
+
+
+    </div>
+    <div id="sidebar">
+      <h2>Documentation</h2>
+      <ul>
+        <!-- <li><a href="http://nanoc.ws/doc/">About</a></li> -->
+        <li><a link_to_id './about.*'> About 	</a></li>
+        <li><a href="http://nanoc.ws/doc/tutorial/">Education</a></li>
+      </ul>
+      <h2>Community</h2>
+      <ul>
+        <li><a href="http://groups.google.com/group/nanoc/">Surfing</a></li>
+        <li><a href="https://gitter.im/nanoc/nanoc">Idea</a></li>
+        <li><a href="http://nanoc.ws/contributing/">Contributing</a></li>
+      </ul>
+    </div>
+  </body>
+</html>
+;
+T;U;[I";/home/tim/Projects/bengalisurftiger/content/about.html;
+TI"
+
+;
+T;@,;@):versioni
