@@ -1,0 +1,23 @@
+// Core colors
+$color-orange:                #ed3400;
+$color-white:                 #fff;
+$color-black:                 #000;
+$color-blue:                  #0e65c2;
+
+// Derived colors
+$color-dark-20:               mix($color-offwhite, $color-black, 100%-5%);
+$color-dark-40:               mix($color-offwhite, $color-black, 100%-15%);
+$color-dark-60:               mix($color-offwhite, $color-black, 100%-40%);
+$color-dark-80:               mix($color-offwhite, $color-black, 100%-70%);
+$color-dark-95:               mix($color-offwhite, $color-black, 100%-95%);
+
+
+// Footer
+$footer-bg-color:             $color-white;
+$footer-fg-color:             $color-dark-60;
+$footer-border-color:         $color-dark-40;
+$footer-link-color:           $color-dark-95;
+$footer-link-hover-fg-color:  $color-dark-95;
+$footer-link-hover-bg-color:  $color-white;
+
+
