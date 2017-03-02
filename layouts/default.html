@@ -10,12 +10,21 @@
   </head>
   <body>
     <div id="main">
+The current Tim here is <%= Time.now %>.
       <%= yield %>
 		<%= @item %>
+
+  <ul>
+  <% @items.find_all('/assets/images/*').each do |img| %>
+    <li><a href="<%= img.path %>"><%= img.path %></a></li>
+	<img src="<%= img.path(rep: :thumbnail) %>">
+	<% end %>
+	</ul>
     </div>
 	<div id="main-menu">
 		<ul class="main-menu">
-			<li class="main-menu"><a href="google.com">Home</a></li>
+			<li class="main-menu"><a href=".">Test</a></li>
+			<li class="main-menu"><a href="output/schooling/index.html">Home</a></li>
 			<li class="main-menu"><a href="google.com">News</a></li>
 			<li class="main-menu"><a href="google.com">Contact</a></li>
 			<li class="main-menu"><a href="/about.html">About</a></li>
