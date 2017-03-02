@@ -1,8 +1,22 @@
 #!/usr/bin/env ruby
+passthrough '/assets/images/*'
+
+compile '/assets/images/.*' do
+  filter :erb
+end
 
 compile '/**/*.html' do
   layout '/default.*'
 end
+
+compile '/assets/images/*', rep: :thumbnail do
+  filter :thumbnailize, width: 200
+end
+
+route '/assets/images/*', rep: :thumbnail do
+item.identifier.without_ext + '-thumbnail.' + item.identifier.ext
+end
+
 
 # This is an example rule that matches Markdown (.md) files, and filters them
 # using the :kramdown filter. It is commented out by default, because kramdown
