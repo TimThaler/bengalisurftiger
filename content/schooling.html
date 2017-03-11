@@ -2,4 +2,24 @@
 title: Education
 blub: Lord
 ---
+Adding Drop-Down Links to a Vertical Navbar
+Adding Drop-Down Links to a Vertical Navbar
+Adding Drop-Down Links to a Vertical Navbar
+Adding Drop-Down Links to a Vertical Navbar<br>
+The current time here is <%= Time.now %>.
+<%= Dir.pwd %>
 
+<ul>
+<% 3.times do %>
+
+  <li>list item</li>
+
+  <% end %>
+  </ul>
+
+
+  <ul>
+  <% @items.find_all('/assets/images/*').each do |img| %>
+    <li><a href="<%= img.path %>"><%= img.path %></a></li>
+	<% end %>
+	</ul>
