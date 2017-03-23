@@ -10,7 +10,7 @@
   </head>
   <body>
     <div id="main">
-The current Anni here is <%= Time.now %>.
+The current beauty here is <%= Time.now %>.
       <%= yield %>
 		<%= @item %>
 
@@ -28,6 +28,7 @@ The current Anni here is <%= Time.now %>.
 			<li class="main-menu"><a href="google.com">News</a></li>
 			<li class="main-menu"><a href="google.com">Contact</a></li>
 			<li class="main-menu"><a href="/about">About</a></li>
+      <li class="main-menu"><a href="/surfing">Surfing</a></li>
 		</ul> 
 	</div>
 	<div id="sidebar">
@@ -38,7 +39,7 @@ The current Anni here is <%= Time.now %>.
       </ul>
       <h2>Community</h2>
       <ul>
-        <li><a href="http://groups.google.com/group/nanoc/">Surfing</a></li>
+        <li><a href="/surfing">Surfing</a></li>
         <li><a href="https://gitter.im/nanoc/nanoc">Idea</a></li>
         <li><a href="http://nanoc.ws/contributing/">Contributing</a></li>
       </ul>
