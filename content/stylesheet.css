@@ -24,7 +24,7 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: Georgia, Palatino, serif;
+  font-family:  "Gill Sans", sans-serif;
 }
 
 body {
@@ -65,12 +65,13 @@ a:hover {
   position: absolute;
   top: 40px;
   left: 280px;
-  width: 500px;
+  width: 1000px;
 }
 
 #main h1 {
   font-size: 40px;
   font-weight: normal;
+  color: #458B74;
 
   line-height: 40px;
 
@@ -79,6 +80,7 @@ a:hover {
 
 #main p {
   margin: 20px 0;
+  color: #1C1C1C;
 
   font-size: 15px;
 
@@ -116,7 +118,7 @@ li.main-menu a {
 	color: white;
 	text-align: center;
 	font-weight:bold;
-  font-family: Georgia, Palatino, fantasy;
+  font-family:  "Gill Sans", sans-serif;
 	padding: 14px 16px;
 	text-decoration: none;
 }
