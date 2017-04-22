@@ -32,6 +32,9 @@ body {
   perspective: 1px;
 }
 
+.banner  { max-width:100%; max-height:100%;
+      background-image: url("generation_next.jpg");} 
+
 
  .background {
  transform:
