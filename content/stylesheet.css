@@ -6,7 +6,6 @@
 
 body {
   background: #fff;
-  perspective: 1px;
 }
 
 a {
@@ -57,14 +56,6 @@ a:hover {
   list-style-type: square;
 }
 
-#main-menu {
-	position: fixed;
-	background: #6E6E6E;
-	top: 0px;
-	left: 0px;
-	width: 100%;
-}
-
 li.main-menu {
 	float:left;
 }
@@ -74,7 +65,7 @@ li.main-menu a {
 	color: white;
 	text-align: center;
 	font-weight:bold;
-    font-family:  "Gill Sans", sans-serif;
+/*    font-family:  "Gill Sans", sans-serif;*/
 	padding: 14px 16px;
 	text-decoration: none;
 }
@@ -82,7 +73,17 @@ li.main-menu a {
 li.main-menu a:hover {
     background-color: #111;
 }
+
+li.main-menu a:hover:not(.active) {
+  background-color: #111;
+}
+
 ul.main-menu {
+	position: fixed;
+	background: #6E6E6E;
+	top: 0px;
+	left: 0px;
+	width: 100%;
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
@@ -93,3 +94,22 @@ ul.main-menu {
 
 ol.square { list-style: square;}
 ol#square { list-style: circle;}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    font-family: "Gill Sans";
+    color: ##8B1A1A;
+    text-align: left;
+}
+
+table#t01 tr:nth-child(even) {
+    background-color: #eee;
+}
+table#t01 tr:nth-child(odd) {
+    background-color: #fff;
+}
+table#t01 th {
+    color: white;
+    background-color: black;
+    
+}
