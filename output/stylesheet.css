@@ -5,7 +5,7 @@
 }
 
 body {
-  background: #F0F8FF;
+  background: #fff;
 }
 
 a {
@@ -32,18 +32,14 @@ a:hover {
   font-size: 40px;
   font-weight: normal;
   color: #458B74;
-
   line-height: 40px;
-
   letter-spacing: -1px;
 }
 
 #main p {
   margin: 20px 0;
   color: #1C1C1C;
-
   font-size: 15px;
-
   line-height: 20px;
 }
 
@@ -53,20 +49,11 @@ a:hover {
 
 #main li {
   font-size: 15px;
-
   line-height: 20px;
 }
 
 #main ul li {
   list-style-type: square;
-}
-
-#main-menu {
-	position: fixed;
-	background: #6E6E6E;
-	top: 0px;
-	left: 0px;
-	width: 100%;
 }
 
 li.main-menu {
@@ -78,7 +65,7 @@ li.main-menu a {
 	color: white;
 	text-align: center;
 	font-weight:bold;
-  font-family:  "Gill Sans", sans-serif;
+/*    font-family:  "Gill Sans", sans-serif;*/
 	padding: 14px 16px;
 	text-decoration: none;
 }
@@ -86,52 +73,43 @@ li.main-menu a {
 li.main-menu a:hover {
     background-color: #111;
 }
+
+li.main-menu a:hover:not(.active) {
+  background-color: #111;
+}
+
 ul.main-menu {
+	position: fixed;
+	background: #6E6E6E;
+	top: 0px;
+	left: 0px;
+	width: 100%;
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
 }
-ol#square { list-style: circle;}
-ol.square { list-style: square;}
 .active {
     background-color: #4CAF50;
 }
 
-
-#sidebar {
-  position: absolute;
-
-  top: 40px;
-  left: 20px;
-  width: 200px;
-
-  padding: 20px 20px 0 0;
-
-  border-right: 1px solid #ccc;
-
-  text-align: right;
+ol.square { list-style: square;}
+ol#square { list-style: circle;}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    font-family: "Gill Sans";
+    color: ##8B1A1A;
+    text-align: left;
 }
 
-#sidebar h2 {
-  text-transform: uppercase;
-
-  font-size: 13px;
-
-  color: #333;
-
-  letter-spacing: 1px;
-
-  line-height: 20px;
+table#t01 tr:nth-child(even) {
+    background-color: #eee;
 }
-
-#sidebar ul {
-  list-style-type: none;
-
-  margin: 20px 0;
+table#t01 tr:nth-child(odd) {
+    background-color: #fff;
 }
-
-#sidebar li {
-  font-size: 14px;
-
-  line-height: 20px;
+table#t01 th {
+    color: white;
+    background-color: black;
+    
 }
