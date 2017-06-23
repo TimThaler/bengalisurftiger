@@ -65,11 +65,13 @@ li.main-menu a {
 	color: white;
 	text-align: center;
 	font-weight:bold;
-/*    font-family:  "Gill Sans", sans-serif;*/
 	padding: 14px 16px;
 	text-decoration: none;
 }
 
+li.main-menu a.active {
+    background-color: #000;
+}
 li.main-menu a:hover {
     background-color: #111;
 }
@@ -87,9 +89,6 @@ ul.main-menu {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
-}
-.active {
-    background-color: #4CAF50;
 }
 
 ol.square { list-style: square;}
@@ -111,5 +110,14 @@ table#t01 tr:nth-child(odd) {
 table#t01 th {
     color: white;
     background-color: black;
-    
+}
+
+.parallax {
+/* background-image: url("/assets/images/generation_next.jpg");*/ 
+ background-image: url("/assets/images/generation_next.jpg");
+height: 700px;
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
 }
