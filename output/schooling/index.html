@@ -1,0 +1,46 @@
+<!DOCTYPE HTML>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Bengali Surf Tiger - Lord</title>
+		<link rel="stylesheet" href="/stylesheet.css">
+		<!-- you don't need to keep this, but it's cool for stats! -->
+		<meta name="generator" content="Nanoc 4.6.1">
+	</head>
+	<body>
+		<div id="main">
+		Adding Drop-Down Links to a Vertical Navbar
+Adding Drop-Down Links to a Vertical Navbar
+Adding Drop-Down Links to a Vertical Navbar
+Adding Drop-Down Links to a Vertical Navbar<br>
+The current time here is <%= Time.now %>.
+<%= Dir.pwd %>
+
+<ul>
+<% 3.times do %>
+
+  <li>list item</li>
+
+  <% end %>
+  </ul>
+
+
+  <ul>
+  <% @items.find_all('/assets/images/*').each do |img| %>
+    <li><a href="<%= img.path %>"><%= img.path %></a></li>
+	<% end %>
+	</ul>
+
+		#<Nanoc::ItemWithRepsView:0x00000002e7c4d8>
+		</div>
+		<div id="main-menu">
+		<ul class="main-menu">
+		<li class="main-menu"><a href="/index">Home</a></li>
+		<li class="main-menu"><a href="/about">About</a></li>
+		<li class="main-menu"><a href="/news">News</a></li>
+		<li class="main-menu"><a href="/contact">Contact</a></li>
+		<li class="main-menu"><a href="/surfing">Surfing</a></li>
+		</ul> 
+		</div>
+	</body>
+</html>
