@@ -88,3 +88,9 @@ checks:
     # E.g.:
     #   exclude_files: ['blog/page']
     exclude_files: []
+
+deploy:
+  default:
+    kind: git
+    remote: git@github.com:TimThaler/bengalisurftiger.git
+    branch: gh-pages
