@@ -93,4 +93,4 @@ deploy:
   default:
     kind: git
     remote: git@github.com:TimThaler/bengalisurftiger.git
-    branch: master
+    branch: gh-pages
