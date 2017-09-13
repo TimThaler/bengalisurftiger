@@ -3,10 +3,12 @@ passthrough '/assets/images/*'
 
 compile '/assets/images/.*' do
   filter :erb
+filter :relativize_paths, type: :html
 end
 
 compile '/**/*.html' do
   layout '/default.*'
+  filter :relativize_paths, type: :html
 end
 
 compile '/assets/images/*', rep: :thumbnail do
