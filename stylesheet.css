@@ -22,9 +22,9 @@ a:hover {
 
 #main {
   position: absolute;
-  top: 40px;
+  top: 50px;
   left: 280px;
-  width: 1000px;
+  right: 280px;
 }
 
 #main h1 {
