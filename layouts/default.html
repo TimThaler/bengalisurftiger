@@ -2,7 +2,7 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8">
-		<title>Bengali Surf Tiger - <%= @item[:blub] %></title>
+		<title>Bengali Surf Tiger - <%= @item[:title] %></title>
 		<link rel="stylesheet" href="/stylesheet.css">
 		<!-- you don't need to keep this, but it's cool for stats! -->
 		<meta name="generator" content="Nanoc <%= Nanoc::VERSION %>">
@@ -10,7 +10,6 @@
 	<body>
 		<div id="main">
 		<%= yield %>
-		<%= @item %>
 		</div>
 		<div id="main-menu">
 		<ul class="main-menu">
