@@ -8,6 +8,7 @@ end
 compile '/**/*.html' do
   layout '/default.*'
   filter :relativize_paths, type: :html
+  filter :relativize_paths, type: :css
 end
 
 compile '/assets/images/*', rep: :thumbnail do
@@ -15,7 +16,7 @@ compile '/assets/images/*', rep: :thumbnail do
 end
 
 route '/assets/images/*', rep: :thumbnail do
-item.identifier.without_ext + '-thumbnail.' + item.identifier.ext
+  item.identifier.without_ext + '-thumbnail.' + item.identifier.ext
 end
 
 
